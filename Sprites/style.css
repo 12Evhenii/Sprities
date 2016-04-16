@@ -1,0 +1,162 @@
+p {
+    color: blue;
+    margin-top: 5px;
+    font-size: 3em;
+}
+
+p:after {
+    content: "";
+    display: block;
+    background: url("../Images/facebook.png") no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin: 10px 10px 0 10px;
+    border-radius: 3px;
+}
+
+p:before {
+    content: "";
+    display: block;
+    background: url("../Images/google.jpg") no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 5px 5px 0 10px;
+    border-radius: 5px;
+}
+
+.sprite {
+    height: 80px;
+    width: 780px;
+    border: 2px solid #fa0002;
+    background: linear-gradient(45deg, #ffffff, #19ff19 );
+    box-shadow: 10px 10px 1px 1px #0100fe;
+}
+
+sup {
+    color: #0000f8;
+    font-weight: bolder;
+}
+
+#links {
+	position: relative;
+}
+
+#links li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+
+#links li, #links a {
+    height: 60px;
+    width: 60px;
+    display: block;
+}
+
+#twitter {
+	left: 0px;
+	width: 54px;
+    background: url("../Links/twitter-black.png") no-repeat;
+}
+
+#google {
+	left: 70px;
+	width: 54px;
+    background: url("../Links/google-black.png") no-repeat;
+}
+
+#facebook {
+	left: 140px;
+	width: 52px;
+    background: url("../Links/facebook-black.png") no-repeat;
+}
+
+#linkedin {
+	left: 205px;
+	width: 54px;
+    background: url("../Links/linkedin-black.png") no-repeat;
+}
+
+#smth {
+	left: 270px;
+	width: 54px;
+    background: url("../Links/smth-black.png") no-repeat;
+}
+
+#youTube {
+	left: 345px;
+	width: 60px;
+    background: url("../Links/youTube-black.png") no-repeat;
+}
+
+.topLinks{
+	margin: 40px 0 0 20px;
+	height: 90px; 
+	width: 500px;
+}
+
+.botLinks {
+	margin: 20px 0 0 20px;
+	height: 90px;
+	width: 500px;
+}
+
+.links {
+	position: relative;
+}
+
+.links li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+
+.links li, .links a {
+    height: 60px;
+    width: 60px;
+    display: block;
+}
+
+.twitter {
+	left: 0px;
+	width: 54px;
+    background: url("../Links/twitter.png") no-repeat;
+}
+
+.google {
+	left: 70px;
+	width: 54px;
+    background: url("../Links/google.png") no-repeat;
+}
+
+.facebook {
+	left: 140px;
+	width: 52px;
+    background: url("../Links/facebook.png") no-repeat;
+}
+
+.linkedin {
+	left: 205px;
+	width: 54px;
+    background: url("../Links/linkedin.png") no-repeat;
+}
+
+.smth {
+	left: 270px;
+	width: 54px;
+    background: url("../Links/smth.png") no-repeat;
+}
+
+.youTube {
+	left: 345px;
+	width: 60px;
+    background: url("../Links/youTube.png") no-repeat;
+}
